@@ -10,6 +10,7 @@ const usuarioSchema = Schema({
 	password: { type: String, select: false },
 	fregistro: { type: Date, default: Date.now() },
 	rol: {type: Schema.Types.ObjectId, ref: "Rol"}
+	
 })
 
 
